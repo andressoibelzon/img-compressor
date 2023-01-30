@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+$theme-colors: (
+    "primary": #662D91,
+    "secondary": #2D0C45,
+    "danger": #FF931E,
+);
+
+//variables
+:root {
+    //fonts
+    --font-poppins: 'Poppins', sans-serif;
+
+    //colors
+    --primary: #662D91;
+    --secondary: #2D0C45;
+    --variation: #D194FF; 
+    --highlighted: #FF931E;
+    --white: white;
+    --black: black;
+    --halftone: #E6E6E6;
+}
+
+
+//generals
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: red;
+}
+
+html, body {
+    font-family: var(--font-poppins);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: var(--font-poppins);
+}
+
